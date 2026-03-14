@@ -161,7 +161,7 @@ function initializeDefaultSettings() {
             // --- Lembar 3 (data-page="2") ---
             { 
                 image: './files/4.jpg', // Menggantikan tbutvj.png (Index 4)
-                content: 'Chúc em một sinh nhật thật dịu dàng như ánh mắt và nụ cười của em. Anh không giỏi nói những lời hoa mỹ chỉ mong e mỗi ngày luôn hạnh phúc.' 
+                content: 'Chúc em một sinh nhật thật dịu dàng như ánh mắt và nụ cười của em. Mong em mỗi ngày luôn được hạnh phúc.Cảm ơn em ❤️❤️.' 
             }
         ]
     };
@@ -868,7 +868,7 @@ function createPages() {
             }
         } else {
             const endImg = document.createElement('img');
-            endImg.src = './files.jpg';
+            endImg.src = './files/6.jpg';
             endImg.onerror = function () {
                 back.classList.add('empty-page');
                back.textContent = t('endOfBook');
